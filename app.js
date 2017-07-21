@@ -1,4 +1,5 @@
 const slider = document.querySelector('.items');
+const panel = document.querySelector('item');
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -26,3 +27,7 @@ slider.addEventListener('mousemove', (e) => {
   slider.scrollLeft = scrollLeft - walk;
   console.log(walk);
 });
+
+panel.addEventListener('click', ()=>{
+  
+})
